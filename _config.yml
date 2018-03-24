@@ -1,4 +1,4 @@
-title: Long Haul
+title: yeongpyo 기술 로그
 description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
 
 url: http://brianmaierjr.github.com/long-haul
@@ -20,9 +20,9 @@ navigation:
    url: /contact
 
 social:
-   github: brianmaierjr
-   twitter: brianmaierjr
-   facebook: brianmaierjr
-   email: brimaidesigns@gmail.com
+   github: baeyeongpyo
+   twitter:
+   facebook:
+   email:
 
 google_analytics: "UA-58263416-1"
