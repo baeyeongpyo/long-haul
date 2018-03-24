@@ -4,24 +4,57 @@ title: Android 에러 종류 및 내용
 date:   2018-03-24
 description: Android Exception에러 종류와 내용
 ---
-```
-ClassNotFoundException	클래스를 찾지 못함
-CloneNotSupportedException	Cloneable 인터페이스 미구현
-IllegalAccessException	클래스 접근을 못함
-InstantiationException	추상 클래스 또는 인터페이스를 인스턴스화 하고자 할때
-InterruptedException	쓰레드가 중단 되었을때
-NoSuchFieldException	지정된 필드가 없을때
-NoSuchMethodException	지정된 메소드가 없을때
-[IOException] CharConversionException	문자 변환에서 예외가 발생했을때
-[IOException] EOFException	파일의 끝에 도달했을때
-[IOException] FileNotFoundException	파일이 발견되지 않았을때
-[IOException] InterruptedIOException	입출력 처리가 중단 되었을때
-[IOException][ObjectStreamException] InvalidClassException	시리얼라이즈 처리에 관한 문제가 클래스 안에 있을때
-[IOException][ObjectStreamException] InvalidObjectException	시리얼라이즈된 오브젝트에서 입력 검증에 실패했을때
-[IOException][ObjectStreamException] NotActiveException	스트림 환경이 액티브하지 않을 때 메소드를 호출했을때
-[IOException][ObjectStreamException] NotSerializableException	오브젝트를 시리얼라이즈 할 수 없을때
-[IOException][ObjectStreamException] OptionalDataException	오브젝트를 읽을때 기대 이외의 데이터와 만났을때
-[IOException][ObjectStreamException] StreamCorruptedException	읽은 데이터 스트림이 파손되어 있을때
+>ClassNotFoundException
+>>클래스를 찾지 못함
+
+>CloneNotSupportedException	Cloneable
+>>인터페이스 미구현
+
+>IllegalAccessException
+>>클래스 접근을 못함
+
+>InstantiationException
+>>	추상 클래스 또는 인터페이스를 인스턴스화 하고자 할때
+
+>InterruptedException
+>>	쓰레드가 중단 되었을때
+
+>NoSuchFieldException
+>>	지정된 필드가 없을때
+
+>NoSuchMethodException
+>>지정된 메소드가 없을때
+
+>[IOException] CharConversionException
+>>문자 변환에서 예외가 발생했을때
+
+>[IOException] EOFException
+>>파일의 끝에 도달했을때
+
+>[IOException] FileNotFoundException
+>>파일이 발견되지 않았을때
+
+>[IOException] InterruptedIOException
+>>입출력 처리가 중단 되었을때
+
+>[IOException][ObjectStreamException] InvalidClassException	
+>>시리얼라이즈 처리에 관한 문제가 클래스 안에 있을때
+
+>[IOException][ObjectStreamException] InvalidObjectException
+>>시리얼라이즈된 오브젝트에서 입력 검증에 실패했을때
+
+>[IOException][ObjectStreamException] NotActiveException
+>>스트림 환경이 액티브하지 않을 때 메소드를 호출했을때
+
+>[IOException][ObjectStreamException] NotSerializableException
+>>오브젝트를 시리얼라이즈 할 수 없을때
+
+>IOException][ObjectStreamException] OptionalDataException
+>>오브젝트를 읽을때 기대 이외의 데이터와 만났을때
+
+>[IOException][ObjectStreamException] StreamCorruptedException
+>>읽은 데이터 스트림이 파손되어 있을때
+
 [IOException][ObjectStreamException] WriteAbortedException	기록중에 예외가 발생한 스트림을 읽었을때
 [IOException] SyncFailedException	시스템 버퍼를 동기시키는 FileDescriptor.sync()의 호출 실패시
 [IOException] UnsupportedEncodingException	지정된 문자 부호화 형식을 지원하고 있지 않을때
@@ -40,6 +73,7 @@ NoSuchMethodException	지정된 메소드가 없을때
 [RuntimeException] UnsupportedOperationException	지원되지 않는 메소드를 호출했을때
 
 
+에러 문구 |
 @ Error
 [LinkageError] ClassCircularityError	클래스 초기화중에 순환 참조를 검출시
 [LinkageError] [ClassFormatError] UnsupportedClassVersionError	JVM이 지원되지 않는 버전의 번호를 가진 클래스 파일을 읽고자 할때
@@ -57,7 +91,7 @@ ThreadDeath	쓰레드가 정지해야만 한다는 의미
 [VirtualMachineError] OutOfMemoryError	메모리부족으로 메모리를 확보 못함
 [VirtualMachineError] StackOverflowError	스택 오버 발생
 [VirtualMachineError] UnknownError	심각한 예외발생
-```
+
 출처 : http://kinjsp.pe.kr/lecture/exception.kin
 
 출처: http://silverbullet.tistory.com/entry/Exception의-종류와-발생원인 [계속 계속 공부하자]
