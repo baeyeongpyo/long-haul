@@ -6,7 +6,7 @@ description: Android Exception에러 종류와 내용
 ```
 ClassNotFoundException
     클래스를 찾지 못함
-CloneNotSupportedException	Cloneable
+CloneNotSupportedException Cloneable
     인터페이스 미구현
 IllegalAccessException
     클래스 접근을 못함
