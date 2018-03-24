@@ -55,20 +55,22 @@ description: Android Exception에러 종류와 내용
 <dt>[RuntimeException] [IllegalArgumentException]</dt>
 <dd>NumberFormatException</dd>
 <dt>[RuntimeException] IllegalMonitorStateException</dt>
-<dd>[RuntimeException] IllegalStateException</dd>
-<dt>메소드가 요구된 처리를 하기에 적합한 상태에 있지 않을때</dt>
-<dd>[RuntimeException] [IndexOutOfBoundException] ArrayIndexOutOfBoundsException</dd>
-<dt>범위 밖의 배열 첨자 지정시</dt>
-<dd>[RuntimeException] [IndexOutOfBoundException] StringIndexOutOfBoundsException</dd>
-<dt>범위 밖의 String 첨자 지정시</dt>
-<dd>[RuntimeException] NegativeArraySizeException</dd>
-<dt>음의 크기로 배열 크기를 지정하였을때</dt>
-<dd>[RuntimeException] NullPointerException</dd>
-<dt>오브젝트로 접근했을때</dt>
-<dd>[RuntimeException] SecurityException</dd>
-<dt>보안 위반시</dt>
-<dd>[RuntimeException] UnsupportedOperationException</dd>
-<dt>지원되지 않는 메소드를 호출했을때</dt>
+<dd>모니터 상태가 부정일때</dd>
+<dt>[RuntimeException] IllegalStateException</dt>
+<dd>메소드가 요구된 처리를 하기에 적합한 상태에 있지 않을때</dd>
+<dt>[RuntimeException] [IndexOutOfBoundException] ArrayIndexOutOfBoundsException</dt>
+<dd>범위 밖의 배열 첨자 지정시</dd>
+<dt>[RuntimeException] [IndexOutOfBoundException] StringIndexOutOfBoundsException</dt>
+<dd>범위 밖의 String 첨자 지정시</dd>
+<dt>[RuntimeException] NegativeArraySizeException</dt>
+<dd>음의 크기로 배열 크기를 지정하였을때</dd>
+<dt>[RuntimeException] NullPointerException</dt>
+<dd>오브젝트로 접근했을때</dd>
+<dt>[RuntimeException] SecurityException</dt>
+<dd>보안 위반시</dd>
+<dt>[RuntimeException] UnsupportedOperationException</dt>
+<dd>지원되지 않는 메소드를 호출했을때</dd>
+
 </dl>
 
 
