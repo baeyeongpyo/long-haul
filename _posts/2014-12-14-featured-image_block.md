@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Featured Image"
-date:   2014-12-14
 published: false
+date:   2014-12-14
 image: touring.jpg
 ---
 
