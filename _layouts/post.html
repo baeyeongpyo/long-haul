@@ -29,6 +29,7 @@ layout: default
       </a>
     {% endif %}
   </div>
+  <div>
   {% assign post = page %}
 {% if post.tags.size > 0 %}
   {% capture tags_content %}Tags{% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}: {% endcapture %}
@@ -46,4 +47,5 @@ layout: default
 {% else %}
   {% assign tags_content = '' %}
 {% endif %}
+</div>
 </div>
