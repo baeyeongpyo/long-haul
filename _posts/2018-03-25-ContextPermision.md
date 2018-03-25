@@ -21,6 +21,8 @@ tags: [이론]
 
 아래의 표를 참고하셔서 개발하는데 도움이 되셨으면 좋겠습니다.
 
+
+
 |                            | Application | Activity | Service | Content Provider  | Broadcast Recevier |
 |----------------------------|:-----------:|:--------:|:-------:|:-----------------:|:------------------:|
 | show a Dialog              |     NO      |    YES   |   NO    |       NO          |         NO         |
