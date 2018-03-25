@@ -1,8 +1,9 @@
-- slug: android
-  name: Android
 
 - slug: java
   name: Java
 
 - slug: kotlin
   name: Kotlin
+
+- slug: err
+  name: ERR
