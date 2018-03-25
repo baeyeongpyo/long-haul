@@ -2,8 +2,7 @@
 layout: post
 title: Android Life Cycle
 description: Android Activity & Fragment Life Cycle
-category:
-- android
+category: [android]
 ---
 
 
