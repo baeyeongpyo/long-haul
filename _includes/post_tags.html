@@ -1,5 +1,5 @@
-<img src="/assets/img/tag-256.png" alt="Tags: " class="tag-img" width="23px"  float="left"/>
-<div class="post-tags" float="left">
+<img src="/assets/img/tag-256.png" alt="Tags: " class="tag-img" width="23px"  style="width: 23px; float: left; margin: 0 10px 0 0; padding: 5px 0 0 0;"/>
+<div class="post-tags" float="left" style="float: left;">
   {% if post %}
     {% assign tags = post.tags %}
   {% else %}
@@ -10,44 +10,3 @@
   {% endfor %}
 </div>
 <br/>
-
-
-
-
-/***************
-      Tag Style
-***************/
-
-
-/***************
-.post .tag-cloud {
-    list-style: none;
-    padding: 0;
-    text-align: justify;
-    font-size: 16px;
-    li {
-      display: inline-block;
-      margin: 0 12px 12px 0;
-    }
-  }
-.post #archives {
-  padding: 5px;
-  }
-.post .archive-group {
-  margin: 5px;
-  border-top: 1px solid #ddd;
-  }
-.post .archive-item {
-  margin-left: 5px;
-  }
-.post .post-tags {
-  float: left;
-  }
-.post .tag-img {
-  width: 23px;
-  float: left;
-  margin: 0 10px 0 0;
-  padding: 5px 0 0 0;
-  }
-
-  ***************/
