@@ -7,7 +7,8 @@ tags: [이론]
 ---
 
 ##Context
-<br/>
+
+
 <dl>
 <dt>Application에 관하여 시스템이 관리하고 있는 정보에 접근</dt>
 <dd> -> getPackageName(), getResource() 등의 함수 호출</dd>
