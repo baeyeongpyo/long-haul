@@ -15,4 +15,4 @@ title: About Long Haul
 	{% endfor %}
 	</ul>
 </li>
-{% endfor %}C
+{% endfor %}

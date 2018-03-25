@@ -18,10 +18,10 @@ navigation:
    url: /about
  - title: Contact
    url: /contact
-- title: Category
-  url: /Category
-- title: Tag
-  url: /Tag
+ - title: Category
+   url: /Category
+ - title: Tag
+   url: /Tag
 
 social:
    github: baeyeongpyo
