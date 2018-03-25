@@ -29,6 +29,8 @@ nav,
 section {
   display: block; }
 
+
+
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
@@ -463,6 +465,40 @@ blockquote {
   blockquote {
     font-size: 1.5em;
     line-height: 1.45833333; } }
+
+    /***************
+  Tag Style
+  ***************/
+    .tag-cloud {
+      list-style: none;
+      padding: 0;
+      text-align: justify;
+      font-size: 16px;
+      li {
+        display: inline-block;
+        margin: 0 12px 12px 0;
+      }
+    }
+    #archives {
+      padding: 5px;
+    }
+    .archive-group {
+      margin: 5px;
+      border-top: 1px solid #ddd;
+    }
+    .archive-item {
+      margin-left: 5px;
+    }
+    .post-tags {
+      float: left;
+    }
+    .tag-img {
+      width: 23px;
+      float: left;
+      margin: 0 10px 0 0;
+      padding: 5px 0 0 0;
+  }
+
 
 /***************
 TRANSITION
