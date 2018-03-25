@@ -3,7 +3,7 @@ layout: post
 title: Android 에러 종류 및 내용
 description: Android Exception에러 종류와 내용
 category: android
-tags: [err]
+tags: [ERR]
 ---
 <dl>
 <dt>ClassNotFoundException</dt>
