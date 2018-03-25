@@ -1,8 +1,8 @@
-- name: android
-  value: Android
+- slug: android
+  name: Android
 
-- name: java
-  value: Java
+- slug: java
+  name: Java
 
-- name: kotlin
-  value: Kotlin
+- slug: kotlin
+  name: Kotlin
