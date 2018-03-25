@@ -6,7 +6,7 @@ category: android
 tags: [이론]
 ---
 
-<p class="intro"><span class="dropcap">Context</span>
+##Context
 <br/>
 <dl>
 <dt>Application에 관하여 시스템이 관리하고 있는 정보에 접근</dt>
