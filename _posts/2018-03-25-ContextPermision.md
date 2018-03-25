@@ -7,12 +7,13 @@ tags: [이론]
 ---
 
 <p class="intro"><span class="dropcap">Context</span>
+<br/>
 <dl>
 <dt>Application에 관하여 시스템이 관리하고 있는 정보에 접근</dt>
-<dd> -> getPackageName(), getResource() 등의 함수 호출</dl>
+<dd> -> getPackageName(), getResource() 등의 함수 호출</dd>
 
-<dt>시스템 서비스에서 제공하는 API를 호출 할 수 있는 기능
-<dd> -> startActivity(), bindService() 등의 함수 호출</dl>
+<dt>시스템 서비스에서 제공하는 API를 호출 할 수 있는 기능</dt>
+<dd> -> startActivity(), bindService() 등의 함수 호출</dd>
 </dl>
 </p>
 
