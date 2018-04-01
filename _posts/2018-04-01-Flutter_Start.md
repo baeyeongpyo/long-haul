@@ -50,6 +50,9 @@ Flutter와 Dart의 Plugins를 설치합니다.
 
  이후에 Flutter를 사용해보니 편한점도 있는데 아직 익숙하지 않은부분이 많아 편하면서도 아직은 어렵네요...
 
- [Flutter 공식 페이지]: https://flutter.io/
- 위 페이지를 개발에 참고하셔 사용하면 되겠습니다.
+
+ Flutter 공식 페이지를 개발에 참고하셔 사용하면 되겠습니다.
  감사합니다!
+
+
+[Flutter 공식 페이지]: https://flutter.io/
