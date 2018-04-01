@@ -1,55 +1,37 @@
 ---
 layout: post
-title: Flutter 시작하기
-description: Flutter Android Studio에서 시작하기
+title: Android Context
+description: Android Context 타입 설명
 category: android
-tags: [Flutter]
+tags: [이론]
 ---
 
 ## Context
 
 
-<p class="intro"><span class="dropcap">Flutter</span></p>는 구글의 새로운 모바일용 UI 프레임 워크다.
+<dl>
+<dt>Application에 관하여 시스템이 관리하고 있는 정보에 접근</dt>
+<dd> -> getPackageName(), getResource() 등의 함수 호출</dd>
 
-Andoird, iOS를 동시에 지원하는 UI 프레임워크이며, Google에서 새로운 os인 Fuchsia를 지원할것으로 보입니다!
+<dt>시스템 서비스에서 제공하는 API를 호출 할 수 있는 기능</dt>
+<dd> -> startActivity(), bindService() 등의 함수 호출</dd>
+</dl>
+</p>
 
-언어는 Dart를 기반으로 하는 UI 프레임워크입니다.
-
-Android Stuio에서 Flutter를 사용해보기 위해서는 Plug를 설치가 필요합니다.
-
-<img src="{{ '/assets/img/Flutter_post/flutter_Start1.png' | prepend: site.baseurl }}" alt="">
-
-1. 위와 같이 Configure에서 Plugins에 들어갑니다.
-
-<img src="{{ '/assets/img/Flutter_post/flutter_Start2.png' | prepend: site.baseurl }}" alt="">
-
-2. Plugins에 들어가게 되면 위와 같이 보입니다.
-  하단에 Browse repositories로 들어갑니다.
-
-<img src="{{ '/assets/img/Flutter_post/flutter_Start3.png' | prepend: site.baseurl }}" alt="">
-
-3. Flutter와 Dart의 Plugins를 설치합니다.
-  위는 이미 설치를 한 화면이라서 Install 버튼은 보이지 않습니다.
+위와 같이 Context는 API를 호출하거나 시스템을 호출할때 쓰입니다.
 
 
-<img src="{{ '/assets/img/Flutter_post/flutter_Start5.png' | prepend: site.baseurl }}" alt="">
+아래의 표를 참고하셔서 개발하는데 도움이 되셨으면 좋겠습니다.
 
-4. 설치를 하고 다시 첫 화면으로 나오게 되면 Start a new Flutter project라는 버튼이 생성 되어있습니다.
 
-<img src="{{ '/assets/img/Flutter_post/flutter_Start6.png' | prepend: site.baseurl }}" alt="">
 
-5. 프로젝트를 생성하게 되면 위와 같은 화면이 처음으로 보입니다.
- App을 생성하기 위해서 Next 버튼을 누릅니다.
-
-<img src="{{ '/assets/img/Flutter_post/flutter_Start7.png' | prepend: site.baseurl }}" alt="">
-
-6. 위에 화면을 보면 SDK를 설정을 해주어야 설치합니다.
- Flutter의 공식 페이지에서는 SDK를 제공하긴 하지만 Flutter SDK Path 옆에 Install SDK를 누르고 설치 위치만 설정해주면 설치를 할수있습니다.
-
- 7. 설치가 완료된 이후에는 Next버튼이 활성화가 되며 Flutter를 사용한 App을 만들수 있습니다.
-
- 이후에 Flutter를 사용해보니 편한점도 있는데 아직 익숙하지 않은부분이 많아 편하면서도 아직은 어렵네요...
-
- [Flutter 공식 페이지]: https://flutter.io/
- 위 페이지를 개발에 참고하셔 사용하면 되겠습니다.
- 감사합니다!
+|                            | Application | Activity | Service | Content Provider  | Broadcast Recevier |
+|----------------------------|:-----------:|:--------:|:-------:|:-----------------:|:------------------:|
+| show a Dialog              |     NO      |    YES   |   NO    |       NO          |         NO         |
+| Start an Activity          |     NO      |    YES   |   NO    |       NO          |         NO         |
+| Layout Inflation           |     NO      |    YES   |   NO    |       NO          |         NO         |
+| Start a Service            |     YES     |    YES   |   YES   |       YES         |         YES        |
+| Bind to a Service          |     YES     |    YES   |   YSE   |       YES         |         NO         |
+| Send A Broadcast           |     YSE     |    YES   |   YSE   |       YES         |         YES        |
+| Register BroadcastReceiver |     YES     |    YES   |   YES   |       YES         |         NO         |
+| Load Resource Values       |     YES     |    YES   |   YES   |       YES         |         YES        |
