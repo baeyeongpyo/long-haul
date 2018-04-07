@@ -6,8 +6,6 @@ category: android
 tags: [Flutter]
 ---
 
-## Context
-
 
 <p class="intro"><span class="dropcap">Flutter</span></p>는 구글의 새로운 모바일용 UI 프레임 워크다.
 
