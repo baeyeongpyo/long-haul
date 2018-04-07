@@ -10,7 +10,7 @@ Flutter를 사용하면서 좋은점은 Widget을 변경하면 변경하는 즉�
 
 처음으로 프로젝트를 만들고 실행을 하게되면 아래와 같은 화면이 실행됩니다.
 
-<img src="{{ '/assets/img/Flutter_post_1/Flutter_Start1_1.png' | prepend: site.baseurl }}" alt="">
+<img src="{{ '/assets/img/Flutter_post_1/Flutter_Start1_1.PNG' | prepend: site.baseurl }}" alt="">
 
 Floating 버튼을 누르면 1씩 증가하는 기능을 합니다.
 
