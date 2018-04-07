@@ -27,7 +27,7 @@ Floating 버튼을 누르면 1씩 증가하는 기능을 합니다.
 
 Flutter는 Widget을 위와 같이 랜더링을 확인할수있습니다.
 
-<img src="{{ '/assets/img/Flutter_post_1/Flutter_Start6_1.png' | prepend: site.baseurl }}" alt="">
+<img src="{{ '/assets/img/Flutter_post_1/Flutter_Start6_1.PNG' | prepend: site.baseurl }}" alt="">
 
 화면의 오른쪽 화면처럼 Flutter Inspector에서 현재 실행중인 Widget을 확인할수있습니다.
 
