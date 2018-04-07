@@ -14,20 +14,20 @@ Flutter를 사용하면서 좋은점은 Widget을 변경하면 변경하는 즉�
 
 Floating 버튼을 누르면 1씩 증가하는 기능을 합니다.
 
-<img src="{{ '/assets/img/Flutter_post1/flutter_Start2.PNG' | prepend: site.baseurl }}" alt="">
+<img src="{{ '/assets/img/Flutter_post_1/flutter_Start2.PNG' | prepend: site.baseurl }}" alt="">
 
 위 화면의 'You have pushed the button this many times:'
 부분을 'Hellow World'로 바꿔 보겠습니다.
 
-<img src="{{ '/assets/img/Flutter_post1/flutter_Start3.PNG' | prepend: site.baseurl }}" alt="">
+<img src="{{ '/assets/img/Flutter_post_1/flutter_Start3.PNG' | prepend: site.baseurl }}" alt="">
 
 이렇게 변경을 하고나서 저장을 하게 되면 실행화면에서 'Hellow World' 가 표시됩니다.
 
-<img src="{{ '/assets/img/Flutter_post1/flutter_Start4.PNG' | prepend: site.baseurl }}" alt="">
+<img src="{{ '/assets/img/Flutter_post_1/flutter_Start4.PNG' | prepend: site.baseurl }}" alt="">
 
 Flutter는 Widget을 위와 같이 랜더링을 확인할수있습니다.
 
-<img src="{{ '/assets/img/Flutter_post1/flutter_Start6.PNG' | prepend: site.baseurl }}" alt="">
+<img src="{{ '/assets/img/Flutter_post_1/flutter_Start6.PNG' | prepend: site.baseurl }}" alt="">
 
 화면의 오른쪽 화면처럼 Flutter Inspector에서 현재 실행중인 Widget을 확인할수있습니다.
 
