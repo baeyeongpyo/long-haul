@@ -78,7 +78,7 @@ public class Chaining_java {
 메소드 안에 있는 내용을 실행하고 나서 자기 자신을 반환을 하게 되기 때문에 다시 메소드를 사용할수 있게 됩니다.
 
 위 내용은 자바로 코드를 작성하였지만 코틀린이라면
-```Java
+```java
 class Chaining_Kotlin {
     var Text : String = ""
 
