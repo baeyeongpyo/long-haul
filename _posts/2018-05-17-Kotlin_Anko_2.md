@@ -13,12 +13,12 @@ Dialog와 Toast 등의 유틸 클래스의 모음집입니다. Toast Message를 
 
 우선 코드를 비교하면
 
-`Toast.makeText(this, "Basic Toast Message", Toast.LENGTH_SHORT).show()`
+```Toast.makeText(this, "Basic Toast Message", Toast.LENGTH_SHORT).show()```
 위와 같은 코드가 기존에 사용했던 방식이라면 
 
 ### Anko라면?
 
-` toast("Anko Toast Message") `
+``` toast("Anko Toast Message") ```
 위 처럼 코드를 작성하면 아주 간단하게 사용할수 있습니다.
 
 그 외에 코드도 비교를 해보겠습니다.
@@ -38,7 +38,8 @@ Dialog와 Toast 등의 유틸 클래스의 모음집입니다. Toast Message를 
 ### Anko라면?
 
 우선 순차적으로 새로운 Activity로 전환만 한다면
-`startActivity<Main2Activity>()` 만으로도 끝납니다.
+```startActivity<Main2Activity>()```
+만으로도 끝납니다.
 
 하지만 데이터를 추가한다면?
 ```
@@ -61,8 +62,12 @@ startActivity<Main2Activity>(
 확실히 기존의 방식과 비교를 하면 간단하게 사용이 가능합니다.
 
 다른 Intent 중에 전화 기능은 
-`startActivity(Intent(Intent.ACTION_CALL, Uri.parse("tel:000-0000-0000")))`
-    ->  `makeCall("tel:000-000-0000")`
+
+```
+        startActivity(Intent(Intent.ACTION_CALL, Uri.parse("tel:000-0000-0000")))
+        
+        makeCall("tel:000-000-0000")
+```
 이렇게 바뀌게 됩니다.
 
 Anko Commons 에는 Logger의 기능도 있습니다.
@@ -70,7 +75,9 @@ Anko Commons 에는 Logger의 기능도 있습니다.
 클래스에 AnkoLogger를 implements 를 해주게 되면 
 현재 클래스 명이 Log Tag로 등록이 됩니다.
 
-Tag명을 바꾸고 싶다면 `val ?? =  AnkoLogger(" ~~~ ") ` 를 사용하시면 됩니다.
+Tag명을 바꾸고 싶다면 
+```val ?? =  AnkoLogger(" ~~~ ") ```
+를 사용하시면 됩니다.
 
 AnkoLogger를 implements 를 하셨다면 
 사용해야하는 부분에서 `info("~~~~")` 를 하게 되면 LogCat에 원하는 결과값을 보실수 있습니다.
