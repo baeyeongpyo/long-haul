@@ -6,7 +6,7 @@ category: Java&Kotlin
 tags: [Kotlin, 이론]
 ---
 
-####Anko란?
+#### Anko란?
 
 Kotlin으로 작성된 DSL ( Domain-specific-Language) 입니다.
 기존에 Android에서는 View를 디자인 할때 XML Layout을 통해서 표현하였습니다.
@@ -14,24 +14,24 @@ Anko의 공식적으로 발표된 자료에는 Android 개발을 좀더 쉽고 �
 기존의 XML 을 사용하게 되면 Java코드로 변환하는 작업을 하게 되면서 CPU나 배터리 소모를 하고 코드의 재활용이 불편하다는 단점이 있습니다.
 Anko는 이한 단점을 라이브러리로 가독성은 높이고 XML 파싱에 따른 오버헤드를 없앨 수 있습니다.
 
-#####Anko 기능
+##### Anko 기능
 공식 GitHub에는 크게 4가지로 나눠져있습니다.
  * Anko Commons
  * Anko Loayouts
  * Anko SQLite
  * Anko Coroutines
  
- #####Anko Commons
+ ##### Anko Commons
  Dialog와 Toast 등의 유틸 클래스의 모음집입니다.
  Toast Message를 띄우거나 Dialog창을 사용할때 간단하게 작성할수 있도록 도움을 줍니다.
  
- #####Anko Coroutines
+ ##### Anko Coroutines
  Kotlinx.corutines 라이브러리를 기본으로한 유틸리티입니다.
  
- #####Anko SQLite
+ ##### Anko SQLite
  Android SQLite 용 쿼리 DSL 및 파서 컬렉션
  
- #####Anko Layouts
+ ##### Anko Layouts
  XML을 Kotlin Code로 작성할수 있게 해주는 라이브러리입니다.
  실제로 Anko를 사용했을 경우와 안했을경우를 비교했었을때에 최대 600% 까지의 성능이 향상된것을 볼수 있습니다.
  간단한 뷰를 생성할때에는 체감상 느껴지지 않을수 있지만 뷰가 복잡해 질수록 성능의 향상을 체감할수 있게 될겁니다.
