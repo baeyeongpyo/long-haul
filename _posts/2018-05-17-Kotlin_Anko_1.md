@@ -15,6 +15,7 @@ Anko의 공식적으로 발표된 자료에는 Android 개발을 좀더 쉽고 �
 Anko는 이한 단점을 라이브러리로 가독성은 높이고 XML 파싱에 따른 오버헤드를 없앨 수 있습니다.
 
 ### Anko 기능
+
 공식 GitHub에는 크게 4가지로 나눠져있습니다.
  * Anko Commons
  * Anko Loayouts
@@ -22,22 +23,27 @@ Anko는 이한 단점을 라이브러리로 가독성은 높이고 XML 파싱에
  * Anko Coroutines
  
  ### Anko Commons
+ 
  Dialog와 Toast 등의 유틸 클래스의 모음집입니다.
  Toast Message를 띄우거나 Dialog창을 사용할때 간단하게 작성할수 있도록 도움을 줍니다.
  
  ### Anko Coroutines
+ 
  Kotlinx.corutines 라이브러리를 기본으로한 유틸리티입니다.
  
  ### Anko SQLite
+ 
  Android SQLite 용 쿼리 DSL 및 파서 컬렉션
  
  ### Anko Layouts
+ 
  XML을 Kotlin Code로 작성할수 있게 해주는 라이브러리입니다.
  실제로 Anko를 사용했을 경우와 안했을경우를 비교했었을때에 최대 600% 까지의 성능이 향상된것을 볼수 있습니다.
  간단한 뷰를 생성할때에는 체감상 느껴지지 않을수 있지만 뷰가 복잡해 질수록 성능의 향상을 체감할수 있게 될겁니다.
  
  
  ### Bulid 추가
+ 
  우선 Anko 를 사용하려면 `Gradle`추가 작업이 필요합니다.
  작성하는 시점( 2018 - 05 - 17 ) 에서는 `'0.10.5'`버전까지 사용할수 있습니다.
  
