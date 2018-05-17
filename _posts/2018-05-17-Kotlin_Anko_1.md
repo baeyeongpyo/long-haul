@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kotlin Anko로 개발하기
-description: Kotlin의 Anko Library 소개 (1)
+description: Kotlin의 Anko Library 소개
 category: android
 tags: [Kotlin, 이론]
 ---
